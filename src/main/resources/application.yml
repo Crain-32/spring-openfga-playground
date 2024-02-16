@@ -1,0 +1,19 @@
+spring:
+  security:
+    openfga:
+      enabled: true
+      url: http://localhost:8080
+      defaultStoreId: 01HPSA916PV6QMKWG6WX392RW8
+      authorizationModel: 01HPSQCYSVG74VCAGN3D5Z6K48
+      token:
+        value: UNSET
+
+server:
+  port: 8083
+
+logging:
+  level:
+    web: DEBUG
+    dev:
+      crain:
+        openfgaworkspace: DEBUG
